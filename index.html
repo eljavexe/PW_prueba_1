@@ -30,9 +30,6 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
           </li>
-          <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="compraentrada.html">Comprar entradas</a>
-          </li>
           <li>
               <img src="src/imagenes/logo_transparent.png" alt="img not fund" width=250px>
           </li>
@@ -46,13 +43,10 @@
   </nav>
 
   <br><br><br>
-
-  <!--Barra de Búsqueda-->
-  <form class="d-flex  container">
-    <input class="form-control me-2" type="search" placeholder="Buscar Evento..." aria-label="Search">
-    <button class="btn btn-outline-success" type="submit">Buscar</button>
-  </form>
-
+   
+  <div class=container align=center>
+    <h1 class="display-5">"Nuestros eventos mas recientes"</h1>
+  </div>
   <br>
 
   <!--Carrusel de Imágenes-->
@@ -94,5 +88,66 @@
       <span class="visually-hidden">Siguiente</span>
     </button>
   </div>
+  <br>
+
+  <!--Barra de Búsqueda-->
+  <form class="d-flex  container">
+    <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Buscar evento de...">
+    <button class="btn btn-outline-success" type="submit">Buscar</button>
+    <datalist id="datalistOptions">
+     <option value="Pop">
+     <option value="Punk">
+     <option value="Rock">
+     <option value="Metal">
+     <option value="Trap">
+    </datalist>
+  </form>
+
+  <br>
+
+  <div class=container >
+    <div class="row">
+      <div class="col-sm-6">
+        <img src="src/imagenes/KISS.jpg" class="card-img-top" alt="...">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Nuevo evento de</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolorem.</p>
+            <a href="evento_1.htm" class="btn btn-primary">Ver detalles del evento</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <img src="src/imagenes/green day.jpg" class="card-img-top" alt="...">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Nuevo evento de</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolorem.</p>
+            <a href="evento_2.htm" class="btn btn-primary">Ver detalles del evento</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <img src="src/imagenes/metallica-cusica-plus-5.webp" class="card-img-top" alt="...">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Nuevo evento de</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolorem.</p>
+            <a href="evento_3.htm" class="btn btn-primary">Ver detalles del evento</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <img src="src/imagenes/Mac_Miller.jpg" class="card-img-top" alt="...">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Nuevo evento de Mac Miller</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolorem.</p>
+            <a href="evento_4.htm" class="btn btn-primary">Ver detalles del evento</a>
+          </div>
+        </div>
+      </div>
+  </div>
+
 </body>   
 </html>
